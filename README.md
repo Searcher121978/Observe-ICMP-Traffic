@@ -10,11 +10,8 @@
 8. Retrieve the private IP address of the Ubuntu VM and attempt to ping it from within the Windows 10 VM
 
  a. Observe ping requests and replies within WireShark
-
- ![image](https://github.com/Searcher121978/Observe-ICMP-Traffic/assets/124515149/c3ed2d58-160f-48b0-a9c4-219312ff44ce)
-
-   
-10. From The Windows 10 VM, open command line or PowerShell and attempt to ping a public website (such as www.google.com) and observe the traffic in WireShark
+ 
+10. From the VM, open command line or PowerShell and attempt to ping a public website (such as www.google.com) and observe the traffic in WireShark
 
 11. Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM
 
@@ -27,7 +24,8 @@
        d. Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity (should start working)
    
        e. Stop the ping activity
-
+    
+ ![image](https://github.com/Searcher121978/Observe-ICMP-Traffic/assets/124515149/c3ed2d58-160f-48b0-a9c4-219312ff44ce)
    
 
 
