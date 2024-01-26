@@ -1,4 +1,4 @@
-# Microsoft-Azure-Observe ICMP Traffic (Video below)
+# Microsoft-Azure-Observe ICMP Traffic 
 **Part 2 (Create our Resources)**
 
 5. Use Remote Desktop to connect to your Windows 10 Virtual Machine
