@@ -8,12 +8,15 @@
 7. Open Wireshark and filter for ICMP traffic only
 
 8. Retrieve the private IP address of the Ubuntu VM and attempt to ping it from within the Windows 10 VM
-   
-   a. Observe ping requests and replies within WireShark
-   
-9. From The Windows 10 VM, open command line or PowerShell and attempt to ping a public website (such as www.google.com) and observe the traffic in WireShark
 
-10. Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM
+ a. Observe ping requests and replies within WireShark
+
+ ![image](https://github.com/Searcher121978/Observe-ICMP-Traffic/assets/124515149/c3ed2d58-160f-48b0-a9c4-219312ff44ce)
+
+   
+10. From The Windows 10 VM, open command line or PowerShell and attempt to ping a public website (such as www.google.com) and observe the traffic in WireShark
+
+11. Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM
 
        a. Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic
 
@@ -27,4 +30,4 @@
 
    
 
-https://github.com/Searcher121978/Microsoft-Azure-Virtual-Machine-Resource-Group/assets/124515149/3392107f-8673-4c2c-8043-95b1178a6d6b
+
